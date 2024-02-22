@@ -170,7 +170,7 @@ text-transform: uppercase;
 **************************/
 
 #main-nav.navbar-default {
-background-color: #dedede;
+background-color:transparent;
 }
 .navbar-brand img {
   background-color: #dedede;
@@ -356,7 +356,7 @@ img {vertical-align: middle;}
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 30%;/************/
+  bottom: 10%;/************/
   width: 100%;
   text-align: center;
 }
