@@ -170,10 +170,10 @@ text-transform: uppercase;
 **************************/
 
 #main-nav.navbar-default {
-background-color:transparent;
+background-color: #dedede93;
 }
 .navbar-brand img {
-  background-color: #dedede;
+  background-color: transparent;
 }
 #main-nav.navbar-default .navbar-nav > li.active > a, #main-nav.navbar-default .navbar-nav > li.open > a, #main-nav.navbar-default .navbar-nav > li:hover > a {
 background: rgb(249, 105, 14);
@@ -356,11 +356,15 @@ img {vertical-align: middle;}
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 10%;/************/
+  bottom: 40%;/************/
   width: 100%;
   text-align: center;
 }
-
+@media only screen and (max-width: 573px) {
+  .text {
+    bottom: 0;
+  }
+}
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
